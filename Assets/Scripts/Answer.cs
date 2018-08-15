@@ -14,6 +14,8 @@ public class Answer {
     [SerializeField] private QuestionManager.Stat[] _statEffectOrder;
     [SerializeField] private int[] _statPointsByOrder;
 
+    [SerializeField] private float _test;
+
 	// Use this for initialization
 	void Start () {
 		
