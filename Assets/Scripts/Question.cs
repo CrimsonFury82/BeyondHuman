@@ -8,7 +8,7 @@ public class Question {
     [SerializeField] private string name = "Question";
 
     [Header("Specific Question Settings")]
-    [SerializeField] private string _questionName;
+    [SerializeField] public string _questionName;
 
     [Header("Relative Answer Settings")]
     public Answer[] _answers;

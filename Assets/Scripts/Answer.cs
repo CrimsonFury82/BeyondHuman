@@ -8,7 +8,7 @@ public class Answer {
     [SerializeField] private string name = "Answer";
 
     [Header("Answer Text")]
-    [SerializeField] private string _answerText;
+    [SerializeField] public string _answerTxt;
 
     [Header("Stat Points")]
     [SerializeField] private QuestionManager.Stat[] _statEffectOrder;
@@ -18,7 +18,7 @@ public class Answer {
 	void Start () {
 		
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		
