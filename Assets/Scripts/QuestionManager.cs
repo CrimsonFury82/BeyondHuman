@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class QuestionManager : MonoBehaviour {
 
-    public enum Stat { AGRESSION, STAT_A, STAT_B}
-
     [Header("Questions")]
     [SerializeField] private Question[] _questions;
 
@@ -17,6 +15,7 @@ public class QuestionManager : MonoBehaviour {
     [Header("Answer References")]
     [SerializeField] private GameObject _answerPanel;
     [SerializeField] private GameObject _answerPrefab;
+    private GameObject[] _currentAnswerButtons;
 
     private Question _selectedQuestion;
     private Answer[] _selectedAnswers;
@@ -28,6 +27,8 @@ public class QuestionManager : MonoBehaviour {
     {
         // Setup.
         _selectedQuestionIndex = -1;
+        _questionAmount = _questions.Length;
+        _currentAnswerButtons = new GameObject[0];
         InitialiseNextQuestion();
     }
 	
@@ -39,8 +40,19 @@ public class QuestionManager : MonoBehaviour {
 
     private void InitialiseNextQuestion()
     {
+        if(_currentAnswerButtons.Length > 0)
+            RemoveAnswerButtons();
+
         _selectedQuestionIndex++;
+
+        if(_selectedQuestionIndex >= _questionAmount)
+        {
+            // Show Results Screen.
+            return;
+        }
+
         _selectedQuestion = _questions[_selectedQuestionIndex];
+
         _selectedAnswers = _selectedQuestion._answers;
 
         UpdateUI();
@@ -53,11 +65,16 @@ public class QuestionManager : MonoBehaviour {
         _questionText.text = _selectedQuestion._questionName;
 
         // Answers.
-        for(int index = 0; index < _selectedAnswers.Length; index++)
+        int answersAmount = _selectedAnswers.Length;
+
+        _currentAnswerButtons = new GameObject[answersAmount];
+
+        for(int index = 0; index < answersAmount; index++)
         {
             // Initialisation of an Answer.
             Answer answer = _selectedAnswers[index];
             GameObject answerButton = Instantiate(_answerPrefab, _answerPanel.transform);
+            _currentAnswerButtons[index] = answerButton;
 
             // Setting UI Text.
             Text answerText = answerButton.GetComponentInChildren<Text>();
@@ -70,8 +87,18 @@ public class QuestionManager : MonoBehaviour {
         }
     }
 
+    private void RemoveAnswerButtons()
+    {
+        for(int index = 0; index < _currentAnswerButtons.Length; index++)
+        {
+            Destroy(_currentAnswerButtons[index]);
+        }
+    }
+
     public void LockInAnswer(int answerIndex)
     {
         Debug.Log(_selectedAnswers[answerIndex]._answerTxt);
+
+        InitialiseNextQuestion();
     }
 }

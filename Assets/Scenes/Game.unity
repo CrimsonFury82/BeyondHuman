@@ -1283,10 +1283,14 @@ MonoBehaviour:
       _statEffectOrder: 
       _statPointsByOrder: 
   - name: Question
-    _questionName: 
+    _questionName: What about a mad cunt?
     _answers:
     - name: Answer
-      _answerTxt: 
+      _answerTxt: Fuck Yea Cunt!
+      _statEffectOrder: 
+      _statPointsByOrder: 
+    - name: Answer
+      _answerTxt: Say What Cunt?
       _statEffectOrder: 
       _statPointsByOrder: 
   _questionText: {fileID: 1359905935}

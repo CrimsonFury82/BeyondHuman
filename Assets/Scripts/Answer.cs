@@ -11,7 +11,7 @@ public class Answer {
     [SerializeField] public string _answerTxt;
 
     [Header("Stat Points")]
-    [SerializeField] private QuestionManager.Stat[] _statEffectOrder;
+    [SerializeField] private StatManager.Stat[] _statEffectOrder;
     [SerializeField] private int[] _statPointsByOrder;
 
 	// Use this for initialization
