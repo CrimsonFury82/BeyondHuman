@@ -34,7 +34,7 @@ public class QuestionManager : MonoBehaviour {
     private void Setup()
     {
         // References.
-        _statManager = GetComponent<StatManager>();
+        _statManager = GameObject.FindGameObjectWithTag("StatManager").GetComponent<StatManager>();
 
         // Questions.
         _selectedQuestionIndex = -1;
@@ -62,7 +62,7 @@ public class QuestionManager : MonoBehaviour {
 
         if(_selectedQuestionIndex >= _questionAmount)
         {
-            // Show Results Screen.
+            _statManager.LoadResultScreen();
             return;
         }
 

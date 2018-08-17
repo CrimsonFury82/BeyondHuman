@@ -542,6 +542,60 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &780496462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 780496464}
+  - component: {fileID: 780496463}
+  m_Layer: 0
+  m_Name: CTRL_StatManager
+  m_TagString: StatManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &780496463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 780496462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63bcbd5c1f52841806d71619534059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _availableStats:
+  - statName: Wanka
+    statValue: 0
+    statResultTxt: Congrulations Wanka Your Fully Qualifilied.
+  - statName: Sick Cunt
+    statValue: 0
+    statResultTxt: Woah, look out its a fucken Sick Cunt.
+  - statName: Mad Cunt
+    statValue: 0
+    statResultTxt: What a fucken Mad Cunt.
+  - statName: Fucked Cunt
+    statValue: 0
+    statResultTxt: You mate, are fucken Fucked Cunt.
+  _resultText: {fileID: 0}
+--- !u!4 &780496464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 780496462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 538.4218, y: 443.99634, z: -18.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946148176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1280,6 @@ GameObject:
   - component: {fileID: 2095516599}
   - component: {fileID: 2095516602}
   - component: {fileID: 2095516601}
-  - component: {fileID: 2095516603}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameGod
@@ -1423,21 +1476,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &2095516603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2095516598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f63bcbd5c1f52841806d71619534059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _availableStats:
-  - statName: Wanka
-    statValue: 0
-  - statName: Sick Cunt
-    statValue: 0
-  - statName: Mad Cunt
-    statValue: 0
