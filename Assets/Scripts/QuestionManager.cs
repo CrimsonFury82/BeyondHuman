@@ -22,13 +22,28 @@ public class QuestionManager : MonoBehaviour {
     private int _selectedQuestionIndex = -1;
     private int _questionAmount;
 
+    private StatManager _statManager;
+
 	// Use this for initialization
 	private void Start ()
     {
         // Setup.
+        Setup();
+    }
+
+    private void Setup()
+    {
+        // References.
+        _statManager = GetComponent<StatManager>();
+
+        // Questions.
         _selectedQuestionIndex = -1;
         _questionAmount = _questions.Length;
+
+        // Answers.
         _currentAnswerButtons = new GameObject[0];
+
+        // Initialise First Question.
         InitialiseNextQuestion();
     }
 	

@@ -4,5 +4,15 @@ using UnityEngine;
 
 public class StatManager : MonoBehaviour {
 
-    public enum Stat { AGRESSION, STAT_A, STAT_B }
+    [System.Serializable]
+    public struct Stat
+    {
+        public string statName;
+        public int statValue;
+    }
+
+    public Stat[] _availableStats;
+
+    
+
 }

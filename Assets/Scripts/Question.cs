@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Question {
 
-    [SerializeField] private string name = "Question";
+    [HideInInspector] [SerializeField] private string name = "Question";
 
     [Header("Specific Question Settings")]
     [SerializeField] public string _questionName;

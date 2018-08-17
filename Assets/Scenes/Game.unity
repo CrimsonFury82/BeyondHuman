@@ -1226,9 +1226,10 @@ GameObject:
   - component: {fileID: 2095516599}
   - component: {fileID: 2095516602}
   - component: {fileID: 2095516601}
+  - component: {fileID: 2095516603}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameGod
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1276,23 +1277,20 @@ MonoBehaviour:
     _answers:
     - name: Answer
       _answerTxt: Yes
-      _statEffectOrder: 
-      _statPointsByOrder: 
+      _statEffects:
+      - index: 0
+        valueToAdd: 0
+      - index: 1
+        valueToAdd: 0
     - name: Answer
-      _answerTxt: No
-      _statEffectOrder: 
-      _statPointsByOrder: 
+      _answerTxt: Yes
+      _statEffects: []
   - name: Question
     _questionName: What about a mad cunt?
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
-      _statEffectOrder: 
-      _statPointsByOrder: 
-    - name: Answer
-      _answerTxt: Say What Cunt?
-      _statEffectOrder: 
-      _statPointsByOrder: 
+      _statEffects: []
   _questionText: {fileID: 1359905935}
   _questionNumberText: {fileID: 1943460920}
   _answerPanel: {fileID: 1001951276}
@@ -1394,3 +1392,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &2095516603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095516598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63bcbd5c1f52841806d71619534059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _availableStats:
+  - statName: Wanka
+    statValue: 0
+  - statName: Sick Cunt
+    statValue: 0
+  - statName: Mad Cunt
+    statValue: 0

@@ -5,14 +5,21 @@ using UnityEngine;
 [System.Serializable]
 public class Answer {
 
-    [SerializeField] private string name = "Answer";
+    [HideInInspector] [SerializeField] private string name = "Answer";
 
     [Header("Answer Text")]
     [SerializeField] public string _answerTxt;
+    
+    [System.Serializable]
+    public struct StatEffect
+    {
+        [StatEffect()]
+        public int index;
 
-    [Header("Stat Points")]
-    [SerializeField] private StatManager.Stat[] _statEffectOrder;
-    [SerializeField] private int[] _statPointsByOrder;
+        public int valueToAdd;
+    }
+
+    public StatEffect[] _statEffects;
 
 	// Use this for initialization
 	void Start () {
