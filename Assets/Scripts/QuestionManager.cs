@@ -112,7 +112,7 @@ public class QuestionManager : MonoBehaviour {
 
     public void LockInAnswer(int answerIndex)
     {
-        Debug.Log(_selectedAnswers[answerIndex]._answerTxt);
+        _statManager.AddAnswerPoints(_selectedAnswers[answerIndex]._statEffects);
 
         InitialiseNextQuestion();
     }

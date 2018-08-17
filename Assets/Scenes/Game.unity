@@ -1276,21 +1276,52 @@ MonoBehaviour:
     _questionName: Are you a sick cunt?
     _answers:
     - name: Answer
-      _answerTxt: Yes
+      _answerTxt: Hell Yeah Bitch
       _statEffects:
       - index: 0
-        valueToAdd: 0
-      - index: 1
-        valueToAdd: 0
+        valueToAdd: 4
     - name: Answer
-      _answerTxt: Yes
-      _statEffects: []
+      _answerTxt: Bitch. I'm a Pimp.
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 2
+        valueToAdd: 3
+    - name: Answer
+      _answerTxt: Fuck you talking to cunt.
+      _statEffects:
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+      - index: 0
+        valueToAdd: 1
   - name: Question
     _questionName: What about a mad cunt?
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
-      _statEffects: []
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
   _questionText: {fileID: 1359905935}
   _questionNumberText: {fileID: 1943460920}
   _answerPanel: {fileID: 1001951276}

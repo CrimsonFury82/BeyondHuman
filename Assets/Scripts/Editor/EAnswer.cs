@@ -26,8 +26,5 @@ public class EAnswer : PropertyDrawer
         }
 
         property.intValue = EditorGUI.Popup(position, "GUITest", property.intValue, _options);
-
-        //if(EditorGUI.EndChangeCheck())
-        //    property.intValue = _selectedIndex;
     }
 }

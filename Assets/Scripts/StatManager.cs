@@ -8,11 +8,21 @@ public class StatManager : MonoBehaviour {
     public struct Stat
     {
         public string statName;
-        public int statValue;
+        [HideInInspector] public int statValue;
     }
 
     public Stat[] _availableStats;
 
-    
+    public void AddAnswerPoints(Answer.StatEffect[] statEffects)
+    {
+        foreach(Answer.StatEffect statEffect in statEffects)
+        {
+            _availableStats[statEffect.index].statValue += statEffect.valueToAdd;
+        }
 
+        foreach(Stat stat in _availableStats)
+        {
+            Debug.Log(stat.statName + ": " + stat.statValue);
+        }
+    }
 }
