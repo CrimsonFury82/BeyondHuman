@@ -593,16 +593,27 @@ MonoBehaviour:
       you wouldn't have  it any other way. "
   - statName: Class 2
     statValue: 0
-    statResultTxt: Result 2
+    statResultTxt: "Corporate Politician: Business is business, those are the words
+      you live by. The 1% run Haven and it just so happens to be your one of them.
+      From humble beginnings you have built yourself up from nothing. In your world,
+      nobody ever plays fair and everyone wants what you have, and they\u2019ll do
+      anything to get it. You\u2019ve lost count of how many times you\u2019ve been
+      targeted by your rivals and let\u2019s be honest, you\u2019re not that innocent
+      yourself as you are more than ready to deal with the underworld partners and
+      illegal trade to garnour your fortune and put yourself ahead of the rest  The
+      world is a harsh place and you\u2019ve learnt to seize your opportunities through
+      any means necessary in an attempt to breach to the top of the economic highlife
+      of fast cars and large mansions. Business is money and money makes the world
+      go round."
   - statName: Class 3
     statValue: 0
-    statResultTxt: Result 3
+    statResultTxt: 'Class 3: Results'
   - statName: Class 4
     statValue: 0
-    statResultTxt: Result 4
+    statResultTxt: 'Class 4: Results'
   - statName: Class 5
     statValue: 0
-    statResultTxt: Result 5
+    statResultTxt: 'Class: 5 Results'
   _resultText: {fileID: 0}
 --- !u!4 &780496464
 Transform:
@@ -1396,6 +1407,8 @@ MonoBehaviour:
         valueToAdd: 1
       - index: 0
         valueToAdd: 1
+      - index: 0
+        valueToAdd: 1
   - name: Question
     _questionName: Recently you have been saving up your miscellaneous credits to
       afford yourself a specialised augmentation at your convenience, You make your
@@ -1412,8 +1425,6 @@ MonoBehaviour:
       _statEffects:
       - index: 0
         valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
     - name: Answer
       _answerTxt: Aegis-9 Prosthetic - A pair of Dual Heavy shock-absorbing legs that
         are heavily used for those who wish to reach new speeds and heights and still
@@ -1424,8 +1435,6 @@ MonoBehaviour:
         valueToAdd: 2
       - index: 1
         valueToAdd: 3
-      - index: 2
-        valueToAdd: 1
     - name: Answer
       _answerTxt: 'Oculus Receptors - A fusion of organic and synthetic matter in
         the form of built in interface located within your eyes allowing heightened
@@ -1435,6 +1444,8 @@ MonoBehaviour:
       _statEffects:
       - index: 2
         valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
       - index: 1
         valueToAdd: 1
     - name: Answer
@@ -1449,8 +1460,152 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
   - name: Question
-    _questionName: Test 3
+    _questionName: Question 3 text
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Question 4 text
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Question 5 text
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Question 6 text
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Question 7 text
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
@@ -1466,8 +1621,15 @@ MonoBehaviour:
         valueToAdd: 2
       - index: 1
         valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
       - index: 2
-        valueToAdd: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 3
     - name: Answer
       _answerTxt: You Bet Bitch.
       _statEffects:
@@ -1475,23 +1637,18 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
       - index: 1
         valueToAdd: 1
   - name: Question
-    _questionName: Test 4
+    _questionName: Question 8 text
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
       _statEffects:
       - index: 0
         valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
     - name: Answer
       _answerTxt: Say What Cunt?
       _statEffects:
@@ -1499,7 +1656,14 @@ MonoBehaviour:
         valueToAdd: 2
       - index: 1
         valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
       - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
         valueToAdd: 1
     - name: Answer
       _answerTxt: You Bet Bitch.
@@ -1508,23 +1672,18 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
       - index: 1
         valueToAdd: 1
   - name: Question
-    _questionName: Test 5
+    _questionName: Question 9 text
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
       _statEffects:
       - index: 0
         valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
     - name: Answer
       _answerTxt: Say What Cunt?
       _statEffects:
@@ -1532,7 +1691,14 @@ MonoBehaviour:
         valueToAdd: 2
       - index: 1
         valueToAdd: 3
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
       - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+      - index: 1
         valueToAdd: 1
     - name: Answer
       _answerTxt: You Bet Bitch.
@@ -1541,23 +1707,18 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
       - index: 1
         valueToAdd: 1
   - name: Question
-    _questionName: Test 6
+    _questionName: Question 10 text
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
       _statEffects:
       - index: 0
         valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
     - name: Answer
       _answerTxt: Say What Cunt?
       _statEffects:
@@ -1565,8 +1726,6 @@ MonoBehaviour:
         valueToAdd: 2
       - index: 1
         valueToAdd: 3
-      - index: 2
-        valueToAdd: 1
     - name: Answer
       _answerTxt: You Bet Bitch.
       _statEffects:
@@ -1574,37 +1733,6 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
-      - index: 1
-        valueToAdd: 1
-  - name: Question
-    _questionName: Test 7
-    _answers:
-    - name: Answer
-      _answerTxt: Fuck Yea Cunt!
-      _statEffects:
-      - index: 0
-        valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
-    - name: Answer
-      _answerTxt: Say What Cunt?
-      _statEffects:
-      - index: 0
-        valueToAdd: 2
-      - index: 1
-        valueToAdd: 3
-      - index: 2
-        valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
       - index: 1
         valueToAdd: 1
     - name: Answer
@@ -1614,103 +1742,8 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
-  - name: Question
-    _questionName: Test 8
-    _answers:
-    - name: Answer
-      _answerTxt: Fuck Yea Cunt!
-      _statEffects:
-      - index: 0
-        valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
-    - name: Answer
-      _answerTxt: Say What Cunt?
-      _statEffects:
-      - index: 0
-        valueToAdd: 2
-      - index: 1
-        valueToAdd: 3
-      - index: 2
-        valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
       - index: 1
         valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
-      - index: 1
-        valueToAdd: 1
-  - name: Question
-    _questionName: Test 9
-    _answers:
-    - name: Answer
-      _answerTxt: Fuck Yea Cunt!
-      _statEffects:
-      - index: 0
-        valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
-    - name: Answer
-      _answerTxt: Say What Cunt?
-      _statEffects:
-      - index: 0
-        valueToAdd: 2
-      - index: 1
-        valueToAdd: 3
-      - index: 2
-        valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
-      - index: 1
-        valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
-      - index: 1
-        valueToAdd: 1
-  - name: Question
-    _questionName: Test 10
-    _answers:
-    - name: Answer
-      _answerTxt: Fuck Yea Cunt!
-      _statEffects:
-      - index: 0
-        valueToAdd: 1
-      - index: 1
-        valueToAdd: 2
-    - name: Answer
-      _answerTxt: Say What Cunt?
-      _statEffects:
-      - index: 0
-        valueToAdd: 2
-      - index: 1
-        valueToAdd: 3
-      - index: 2
-        valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
-      - index: 1
-        valueToAdd: 1
-    - name: Answer
-      _answerTxt: You Bet Bitch.
-      _statEffects:
-      - index: 2
-        valueToAdd: 3
       - index: 1
         valueToAdd: 1
   _questionText: {fileID: 1359905935}
