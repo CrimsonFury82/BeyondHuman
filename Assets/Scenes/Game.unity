@@ -116,10 +116,10 @@ NavMeshSettings:
 --- !u!1 &220220796
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1268646945067598, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 1268646945067598, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 220220797}
   - component: {fileID: 220220799}
@@ -134,7 +134,7 @@ GameObject:
 --- !u!224 &220220797
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224534146961992030, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 224534146961992030, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220220796}
@@ -153,7 +153,7 @@ RectTransform:
 --- !u!114 &220220798
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114367129642321070, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114367129642321070, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220220796}
@@ -187,16 +187,17 @@ MonoBehaviour:
 --- !u!222 &220220799
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222009760385391678, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 222009760385391678, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220220796}
+  m_CullTransparentMesh: 0
 --- !u!1 &343394808
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 343394811}
   - component: {fileID: 343394810}
@@ -211,7 +212,7 @@ GameObject:
 --- !u!114 &343394809
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 343394808}
   m_Enabled: 1
@@ -229,7 +230,7 @@ MonoBehaviour:
 --- !u!114 &343394810
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 343394808}
   m_Enabled: 1
@@ -243,7 +244,7 @@ MonoBehaviour:
 --- !u!4 &343394811
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 343394808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -256,7 +257,7 @@ Transform:
 --- !u!224 &480279169
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224812283820642760, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 224812283820642760, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 630186723}
@@ -279,9 +280,9 @@ RectTransform:
 --- !u!1 &603107040
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 603107042}
   - component: {fileID: 603107041}
@@ -295,7 +296,7 @@ GameObject:
 --- !u!114 &603107041
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603107040}
   m_Enabled: 1
@@ -306,7 +307,7 @@ MonoBehaviour:
 --- !u!4 &603107042
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603107040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -319,10 +320,10 @@ Transform:
 --- !u!1 &615863802
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1601146231824228, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 1601146231824228, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 615863803}
   - component: {fileID: 615863805}
@@ -337,7 +338,7 @@ GameObject:
 --- !u!224 &615863803
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224303980020713890, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 224303980020713890, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615863802}
@@ -358,7 +359,7 @@ RectTransform:
 --- !u!114 &615863804
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114520672169078588, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 114520672169078588, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615863802}
@@ -386,17 +387,18 @@ MonoBehaviour:
 --- !u!222 &615863805
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222361877344577180, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 222361877344577180, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615863802}
+  m_CullTransparentMesh: 0
 --- !u!1 &630186723
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1169522940226276, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 1169522940226276, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 480279169}
   - component: {fileID: 630186725}
@@ -411,7 +413,7 @@ GameObject:
 --- !u!114 &630186724
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114886617053002224, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114886617053002224, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 630186723}
@@ -439,17 +441,18 @@ MonoBehaviour:
 --- !u!222 &630186725
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222929962524823216, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 222929962524823216, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 630186723}
+  m_CullTransparentMesh: 0
 --- !u!1 &665158296
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1661222001626870, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 1661222001626870, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 665158300}
   - component: {fileID: 665158299}
@@ -465,7 +468,7 @@ GameObject:
 --- !u!114 &665158297
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114649509812077340, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114649509812077340, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665158296}
@@ -482,7 +485,7 @@ MonoBehaviour:
 --- !u!114 &665158298
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114277126628141596, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114277126628141596, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665158296}
@@ -504,7 +507,7 @@ MonoBehaviour:
 --- !u!223 &665158299
 Canvas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 223111395417323948, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 223111395417323948, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665158296}
@@ -525,7 +528,7 @@ Canvas:
 --- !u!224 &665158300
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224532624615903114, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 224532624615903114, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665158296}
@@ -545,9 +548,9 @@ RectTransform:
 --- !u!1 &780496462
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 780496464}
   - component: {fileID: 780496463}
@@ -561,7 +564,7 @@ GameObject:
 --- !u!114 &780496463
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 780496462}
   m_Enabled: 1
@@ -570,23 +573,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _availableStats:
-  - statName: Wanka
+  - statName: Class 1
     statValue: 0
-    statResultTxt: Congrulations Wanka Your Fully Qualifilied.
-  - statName: Sick Cunt
+    statResultTxt: "Neo-Runner: In a world where information is golden and everything
+      can be hacked, you are one of the defences against invasion of privacy and information.
+      You act similar to a courier, transporting \u201Cpackages\u201D from one location
+      to another through physical means. Haven  is yours to traverse  through any
+      route you wish, Running is your specialty whether it be jumping building to
+      building, Using normally untraversable  shortcuts to your advantage  or even
+      just going in through the front door, as long as you reach your destination
+      with your package in tow, you\u2019ve guaranteed  yourself several  grand. But
+      let\u2019s be honest, not everything goes to plan, sometimes your hunted for
+      all you have, which leads you to dodge a lot more gunfire  then you\u2019d like.
+      And when things get real tight, dispatching your pursuers is a common occurence
+      to happen no matter their affiliation.   This job is not for the faint of heart
+      and more for the swift of feet and itchiness of trigger fingers. Whatever job
+      you take, know every exit, and every shortcut. Prepare yourself for any and
+      all situations that may come your way. Haven is your playground, and frankly,
+      you wouldn't have  it any other way. "
+  - statName: Class 2
     statValue: 0
-    statResultTxt: Woah, look out its a fucken Sick Cunt.
-  - statName: Mad Cunt
+    statResultTxt: Result 2
+  - statName: Class 3
     statValue: 0
-    statResultTxt: What a fucken Mad Cunt.
-  - statName: Fucked Cunt
+    statResultTxt: Result 3
+  - statName: Class 4
     statValue: 0
-    statResultTxt: You mate, are fucken Fucked Cunt.
+    statResultTxt: Result 4
+  - statName: Class 5
+    statValue: 0
+    statResultTxt: Result 5
   _resultText: {fileID: 0}
 --- !u!4 &780496464
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 780496462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -599,10 +620,10 @@ Transform:
 --- !u!1 &946148176
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1453996597976740, guid: 75521386490327d448c1a69058e971fb,
+  m_CorrespondingSourceObject: {fileID: 1453996597976740, guid: 75521386490327d448c1a69058e971fb,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 946148177}
   - component: {fileID: 2015355983}
@@ -616,7 +637,7 @@ GameObject:
 --- !u!4 &946148177
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4928190917268412, guid: 75521386490327d448c1a69058e971fb,
+  m_CorrespondingSourceObject: {fileID: 4928190917268412, guid: 75521386490327d448c1a69058e971fb,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 946148176}
@@ -630,9 +651,9 @@ Transform:
 --- !u!1 &1001951276
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1001951277}
   - component: {fileID: 1001951280}
@@ -648,7 +669,7 @@ GameObject:
 --- !u!224 &1001951277
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001951276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -661,12 +682,12 @@ RectTransform:
   m_AnchorMin: {x: 0.05, y: 0.2}
   m_AnchorMax: {x: 0.95, y: 0.55}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001951278
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001951276}
   m_Enabled: 1
@@ -688,7 +709,7 @@ MonoBehaviour:
 --- !u!114 &1001951279
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001951276}
   m_Enabled: 1
@@ -715,15 +736,16 @@ MonoBehaviour:
 --- !u!222 &1001951280
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001951276}
+  m_CullTransparentMesh: 0
 --- !u!1 &1320565582
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1320565586}
   - component: {fileID: 1320565585}
@@ -739,27 +761,31 @@ GameObject:
 --- !u!81 &1320565583
 AudioListener:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320565582}
   m_Enabled: 1
 --- !u!124 &1320565584
 Behaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320565582}
   m_Enabled: 1
 --- !u!20 &1320565585
 Camera:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320565582}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -789,11 +815,11 @@ Camera:
 --- !u!4 &1320565586
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320565582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -1000, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -802,10 +828,10 @@ Transform:
 --- !u!1 &1359905933
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1489202819225260, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 1489202819225260, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1359905934}
   - component: {fileID: 1359905936}
@@ -820,7 +846,7 @@ GameObject:
 --- !u!224 &1359905934
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224263899923384556, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 224263899923384556, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1359905933}
@@ -833,13 +859,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05, y: 0.6}
   m_AnchorMax: {x: 0.95, y: 0.8}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 37.5}
+  m_SizeDelta: {x: 0, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1359905935
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114002603956300474, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114002603956300474, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1359905933}
@@ -873,17 +899,18 @@ MonoBehaviour:
 --- !u!222 &1359905936
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222272517606034442, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 222272517606034442, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1359905933}
+  m_CullTransparentMesh: 0
 --- !u!1 &1367735405
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1429769040257340, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 1429769040257340, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1367735406}
   - component: {fileID: 1367735409}
@@ -899,7 +926,7 @@ GameObject:
 --- !u!224 &1367735406
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224211987280330692, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 224211987280330692, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1367735405}
@@ -919,7 +946,7 @@ RectTransform:
 --- !u!114 &1367735407
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114295871431937264, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114295871431937264, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1367735405}
@@ -984,7 +1011,7 @@ MonoBehaviour:
 --- !u!114 &1367735408
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114173192415321102, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 114173192415321102, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1367735405}
@@ -1012,17 +1039,18 @@ MonoBehaviour:
 --- !u!222 &1367735409
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222512572015845836, guid: 9aca740b35cef114b98faecbc331e086,
+  m_CorrespondingSourceObject: {fileID: 222512572015845836, guid: 9aca740b35cef114b98faecbc331e086,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1367735405}
+  m_CullTransparentMesh: 0
 --- !u!1 &1836926009
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1491143783227794, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 1491143783227794, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1836926010}
   - component: {fileID: 1836926012}
@@ -1037,7 +1065,7 @@ GameObject:
 --- !u!224 &1836926010
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224823979660186448, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 224823979660186448, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836926009}
@@ -1056,7 +1084,7 @@ RectTransform:
 --- !u!114 &1836926011
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114897717324621048, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 114897717324621048, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836926009}
@@ -1090,17 +1118,18 @@ MonoBehaviour:
 --- !u!222 &1836926012
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222853858192104580, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 222853858192104580, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836926009}
+  m_CullTransparentMesh: 0
 --- !u!1 &1943460918
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1479174414570168, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 1479174414570168, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1943460919}
   - component: {fileID: 1943460921}
@@ -1115,7 +1144,7 @@ GameObject:
 --- !u!224 &1943460919
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224620578424975258, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 224620578424975258, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943460918}
@@ -1134,7 +1163,7 @@ RectTransform:
 --- !u!114 &1943460920
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114853787657129488, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 114853787657129488, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943460918}
@@ -1168,21 +1197,22 @@ MonoBehaviour:
 --- !u!222 &1943460921
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 222330316772764272, guid: f9018322ae788de44b1b662b3405532c,
+  m_CorrespondingSourceObject: {fileID: 222330316772764272, guid: f9018322ae788de44b1b662b3405532c,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943460918}
+  m_CullTransparentMesh: 0
 --- !u!82 &2015355983
 AudioSource:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 82258399011500944, guid: 75521386490327d448c1a69058e971fb,
+  m_CorrespondingSourceObject: {fileID: 82258399011500944, guid: 75521386490327d448c1a69058e971fb,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 946148176}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 93ee848d264b427449ce5b683ff0b515, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1271,13 +1301,12 @@ AudioSource:
 --- !u!1 &2095516598
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1246439317076412, guid: d09ca0ae8f89d0446b71b4383583bbbd,
+  m_CorrespondingSourceObject: {fileID: 1246439317076412, guid: d09ca0ae8f89d0446b71b4383583bbbd,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 2095516600}
-  - component: {fileID: 2095516599}
   - component: {fileID: 2095516602}
   - component: {fileID: 2095516601}
   m_Layer: 0
@@ -1287,22 +1316,10 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2095516599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114661683650177348, guid: d09ca0ae8f89d0446b71b4383583bbbd,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2095516598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3a364d4d0388a6489570a147d012e0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2095516600
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4056546906876406, guid: d09ca0ae8f89d0446b71b4383583bbbd,
+  m_CorrespondingSourceObject: {fileID: 4056546906876406, guid: d09ca0ae8f89d0446b71b4383583bbbd,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095516598}
@@ -1316,7 +1333,7 @@ Transform:
 --- !u!114 &2095516601
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095516598}
   m_Enabled: 1
@@ -1326,22 +1343,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _questions:
   - name: Question
-    _questionName: Are you a sick cunt?
+    _questionName: 'Growing up in Haven was never easy, and even finding a legitimate
+      job was more problematic than it seemed. That being said, recently you''ve been
+      noticing stolen goods from your workplace more often than not and your boss
+      is holding you responsible unless the culprit is found, a bit unfair to be sure
+      but it''s your neck on the line.  The next day you soon hear rumbling from your
+      surroundings on one of your night shifts and soon after, find your supposed
+      thief to be a small child augmented with prosthetic legs. The boy reaches for
+      his Hoodie to pull out dainty pistol and thrusts it into your direction. A situation
+      like this is not uncommon in this area but nevertheless, a swift end is something
+      you''d like to avoid, What is your course of action? '
     _answers:
     - name: Answer
-      _answerTxt: Hell Yeah Bitch
+      _answerTxt: 'Your remember being in the kid''s position when you were growing
+        up and know how much of a bitch it can be, so you offer him more than he''s
+        already taken and send him on his way. Morally you''d be doing a good deed
+        but any hopes you have  of keeping this job is properly fucked. '
       _statEffects:
       - index: 0
         valueToAdd: 4
     - name: Answer
-      _answerTxt: Bitch. I'm a Pimp.
+      _answerTxt: Let the boy escape, he may be scared but one false move could render  your
+        life nil. no amount of money is worth giving your life for a shitty job at
+        a corner store.
       _statEffects:
       - index: 0
         valueToAdd: 2
       - index: 2
         valueToAdd: 3
     - name: Answer
-      _answerTxt: Fuck you talking to cunt.
+      _answerTxt: 'You were never one to play "the good guy" but this kid seems to
+        have taken the same road you did, and frankly you know where he''s heading
+        if he doesn''t un-fuck his whole situation. You attempt to convince him to
+        lower his weapon  and stop stealing from the store if he values his life.
+        Who knows, he might even take your advice to heart. '
+      _statEffects:
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+      - index: 0
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: 'The boy seems much too scared to actually pull the trigger, and
+        you were lucky enough to even get a legitimate job, and you''d unlikely ever
+        get one again. Attempt to disarm the boy and turn him in to protect your your
+        livelihood. '
       _statEffects:
       - index: 1
         valueToAdd: 3
@@ -1350,7 +1397,60 @@ MonoBehaviour:
       - index: 0
         valueToAdd: 1
   - name: Question
-    _questionName: What about a mad cunt?
+    _questionName: Recently you have been saving up your miscellaneous credits to
+      afford yourself a specialised augmentation at your convenience, You make your
+      way down to your local Valen-corp building and browse through the catalogue,
+      to gain any understanding as to what are your options and find that the choices
+      are endless but you only have enough credits to afford a singular prosthetic.
+      What do you choose?
+    _answers:
+    - name: Answer
+      _answerTxt: Holo-Jack - Able to directly transfer your conscious into the subsystems
+        of any technology, allowing a personal stream of information to transfer into
+        your head. Good for those placing high priority on information gathering or
+        the control of machines
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Aegis-9 Prosthetic - A pair of Dual Heavy shock-absorbing legs that
+        are heavily used for those who wish to reach new speeds and heights and still
+        survive the fall in the aftermath. Used mostly by those that wish to be the
+        prime example of agility and adaptability to any terrain
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: 'Oculus Receptors - A fusion of organic and synthetic matter in
+        the form of built in interface located within your eyes allowing heightened
+        vision and manipulation of how you perceive what you see, whether you wish
+        to install a visual GPS or just see through walls. Used for anyone who obsesses
+        over minor details or those who wish to gain insight into their surroundings '
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: 'C-5 Taurus Prosthetics - Two highly advanced strength focused synthetic
+        limbs built to output ludicrous amounts of strength, and just barely legal
+        on the free market. Coming with a safety mode for daily use throughout daily
+        life, and of course the Taurus switch which maximises its strength and grip
+        to inhuman levels, it is the ideal choice for anyone wishing to have a little
+        extra to defend themselves or just straight use to their advantage '
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 3
     _answers:
     - name: Answer
       _answerTxt: Fuck Yea Cunt!
@@ -1375,6 +1475,244 @@ MonoBehaviour:
         valueToAdd: 3
       - index: 1
         valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 4
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 5
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 6
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 7
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 8
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 9
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+  - name: Question
+    _questionName: Test 10
+    _answers:
+    - name: Answer
+      _answerTxt: Fuck Yea Cunt!
+      _statEffects:
+      - index: 0
+        valueToAdd: 1
+      - index: 1
+        valueToAdd: 2
+    - name: Answer
+      _answerTxt: Say What Cunt?
+      _statEffects:
+      - index: 0
+        valueToAdd: 2
+      - index: 1
+        valueToAdd: 3
+      - index: 2
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
+    - name: Answer
+      _answerTxt: You Bet Bitch.
+      _statEffects:
+      - index: 2
+        valueToAdd: 3
+      - index: 1
+        valueToAdd: 1
   _questionText: {fileID: 1359905935}
   _questionNumberText: {fileID: 1943460920}
   _answerPanel: {fileID: 1001951276}
@@ -1383,14 +1721,14 @@ MonoBehaviour:
 --- !u!82 &2095516602
 AudioSource:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 82494802756978552, guid: d09ca0ae8f89d0446b71b4383583bbbd,
+  m_CorrespondingSourceObject: {fileID: 82494802756978552, guid: d09ca0ae8f89d0446b71b4383583bbbd,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095516598}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0c414e8719b9f4c4f9b676ba2f6e9d6e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b51bc8eb5e0ca9f4dbb5fdc3ef887639, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

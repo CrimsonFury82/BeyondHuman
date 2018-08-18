@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-	AudioSource myAudioSource;
+	//AudioSource myAudioSource;
 
-	void Start () {
-		myAudioSource = GetComponent<AudioSource> ();
-	}
-	
-	void Update () {
+    //void Start()
+    //{
+    //    myAudioSource = GetComponent<AudioSource>();
+    //}
+
+    void Update () {
 		
 	}
 

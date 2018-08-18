@@ -22,7 +22,7 @@ public class EAnswer : PropertyDrawer
 
         for(int index = 0; index < _currentStatManager._availableStats.Length; index++)
         {
-            _options[index] = _currentStatManager._availableStats[index].statName;
+           _options[index] = _currentStatManager._availableStats[index].statName;
         }
 
         property.intValue = EditorGUI.Popup(position, "GUITest", property.intValue, _options);

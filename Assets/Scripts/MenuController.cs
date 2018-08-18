@@ -12,12 +12,12 @@ public class MenuController : MonoBehaviour {
 	}
 
 	IEnumerator Load(string sceneName) { //coroutine for loading a scene
-		yield return new WaitForSeconds (0.3f); //waits for 1 second
+		yield return new WaitForSeconds (0.3f); //waits for x seconds
 		SceneManager.LoadScene (sceneName); //Loads the assigned scene when this function is run
 	}
 
 	public void QuitDelayed(){ //function quit quitting with delay
-		Invoke ("Quit", 0.3f); //calls function with specified delay
+		Invoke ("Quit", 0.3f); //calls function with x seconds delay
 	}
 
 	public void Quit(){ //function for quitting the game when Quit button is clicked
