@@ -6,6 +6,12 @@ using UnityEngine.UI;
 
 public class StatManager : MonoBehaviour {
 
+    [Header("Results References")]
+    [SerializeField] private GameObject _quizCanvas;
+    [SerializeField] private GameObject _resultsCanvas;
+    [SerializeField] private Text _resultsText;
+
+    
     [System.Serializable]
     public struct Stat
     {
@@ -14,13 +20,11 @@ public class StatManager : MonoBehaviour {
         public string statResultTxt;
     }
 
+    [Header("Stats")]
     public Stat[] _availableStats;
-
-    [SerializeField] private Text _resultText;
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
     }
 
     public void AddAnswerPoints(Answer.StatEffect[] statEffects)
@@ -38,13 +42,14 @@ public class StatManager : MonoBehaviour {
 
     public void LoadResultScreen()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        _quizCanvas.SetActive(false);
+        _resultsCanvas.SetActive(true);
 
-        _resultText = GameObject.FindGameObjectWithTag("ResultsText").GetComponent<Text>();
+        _resultsText = GameObject.FindGameObjectWithTag("ResultsText").GetComponent<Text>();
 
         Stat topStat = CalculateTopStat();
 
-        _resultText.text = topStat.statResultTxt;
+        _resultsText.text = topStat.statResultTxt;
     }
 
     private Stat CalculateTopStat()

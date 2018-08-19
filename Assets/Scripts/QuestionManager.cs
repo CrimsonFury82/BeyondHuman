@@ -17,6 +17,10 @@ public class QuestionManager : MonoBehaviour {
     [SerializeField] private GameObject _answerPrefab;
     private GameObject[] _currentAnswerButtons;
 
+    [Header("Results References")]
+    [SerializeField] private GameObject _resultsCanvas;
+    [SerializeField] private Text _resultsText;
+
     private Question _selectedQuestion;
     private Answer[] _selectedAnswers;
     private int _selectedQuestionIndex = -1;
