@@ -1972,8 +1972,8 @@ MonoBehaviour:
         life nil. no amount of money is worth giving your life for a shitty job at
         a corner store.
       _statEffects:
-      - index: 0
-        valueToAdd: 2
+      - index: 4
+        valueToAdd: 540
       - index: 2
         valueToAdd: 3
     - name: Answer
