@@ -10,6 +10,6 @@ public class StatEffectAttribute : PropertyAttribute
 
     public StatEffectAttribute()
     {
-        _statManager = GameObject.FindGameObjectWithTag("GameGod").GetComponent<StatManager>();
+        _statManager = GameObject.FindGameObjectWithTag("StatManager").GetComponent<StatManager>();
     }
 }

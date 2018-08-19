@@ -35,28 +35,16 @@ public class StatManager : MonoBehaviour {
             Debug.Log(stat.statName + ": " + stat.statValue);
         }
     }
-    
+
     public void LoadResultScreen()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
-        //_resultText = GameObject.FindGameObjectWithTag("ResultsText").GetComponent<Text>();
+        _resultText = GameObject.FindGameObjectWithTag("ResultsText").GetComponent<Text>();
 
-        //Stat topStat = CalculateTopStat();
+        Stat topStat = CalculateTopStat();
 
-        //_resultText.text = topStat.statResultTxt;
-    }
-
-    private void OnLevelWasLoaded(int level)
-    {
-        if(level == 2)
-        {
-            _resultText = GameObject.FindGameObjectWithTag("ResultsText").GetComponent<Text>();
-
-            Stat topStat = CalculateTopStat();
-
-            _resultText.text = topStat.statResultTxt;
-        }
+        _resultText.text = topStat.statResultTxt;
     }
 
     private Stat CalculateTopStat()
