@@ -10,22 +10,19 @@ public class StatManager : MonoBehaviour {
     [SerializeField] private GameObject _quizCanvas;
     [SerializeField] private GameObject _resultsCanvas;
     [SerializeField] private Text _resultsText;
+    [SerializeField] private Image resultsImage; //added by Aston
 
-    
     [System.Serializable]
     public struct Stat
     {
         public string statName;
         [HideInInspector] public int statValue;
         public string statResultTxt;
+        public Sprite resultsSprite; //added by Aston
     }
 
     [Header("Stats")]
     public Stat[] _availableStats;
-
-    private void Awake()
-    {
-    }
 
     public void AddAnswerPoints(Answer.StatEffect[] statEffects)
     {
@@ -46,22 +43,24 @@ public class StatManager : MonoBehaviour {
         _resultsCanvas.SetActive(true);
 
         _resultsText = GameObject.FindGameObjectWithTag("ResultsText").GetComponent<Text>();
+        resultsImage = GameObject.FindGameObjectWithTag("ResultsImage").GetComponent<Image>(); //added by Aston
 
         Stat topStat = CalculateTopStat();
 
         _resultsText.text = topStat.statResultTxt;
+        resultsImage.sprite = topStat.resultsSprite; //added by Aston
     }
 
     private Stat CalculateTopStat()
     {
         Stat topStat = _availableStats[0];
 
-        foreach(Stat stat in _availableStats)
+        foreach (Stat stat in _availableStats)
         {
             if(topStat.statValue < stat.statValue)
                 topStat = stat;
         }
-
         return topStat;
     }
+
 }

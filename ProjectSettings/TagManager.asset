@@ -9,6 +9,7 @@ TagManager:
   - GameGod
   - StatManager
   - ResultsText
+  - ResultsImage
   layers:
   - Default
   - TransparentFX
