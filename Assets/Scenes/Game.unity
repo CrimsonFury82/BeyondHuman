@@ -589,7 +589,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 100}
+  m_SizeDelta: {x: 400, y: 80}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &370523692
 MonoBehaviour:
@@ -1022,7 +1022,7 @@ MonoBehaviour:
       take, know every exit, and every shortcut. Prepare yourself for any and all
       situations that may come your way. Haven is your playground, and frankly, you
       wouldn't have it any other way.  Signature skills: Navigation, Parkour, Flexibility."
-    resultsSprite: {fileID: 21300000, guid: 14368f51158489e488d82a281002cb53, type: 3}
+    resultsSprite: {fileID: 0}
   - statName: Broker
     statValue: 0
     statResultTxt: 'Shadow Broker: Everyone has skeletons in their closets. Some may
@@ -1039,7 +1039,7 @@ MonoBehaviour:
       make all the difference in a situation. Anyone can be your customer under the
       right circumstances. Signature skills: Intel Gathering, Hacking, Network Contact
       and Blackmail.'
-    resultsSprite: {fileID: 21300000, guid: 5df8026d3e67c034db95c296d285727a, type: 3}
+    resultsSprite: {fileID: 0}
   - statName: Mercenary
     statValue: 0
     statResultTxt: "Mercenary Enforcer: You are gun for hire. You take on all kinds
@@ -1052,7 +1052,7 @@ MonoBehaviour:
       done through an arsenal of gear, ruthlessness and brute force. Signature skills:
       Military training including: Hand-to-hand combat, Firearms specialisation and
       Explosive expertise."
-    resultsSprite: {fileID: 21300000, guid: a4ab4ec439ecd8e478f178cf8884cba6, type: 3}
+    resultsSprite: {fileID: 0}
   - statName: Politician
     statValue: 0
     statResultTxt: "Corporate Politician: Business is business, those are the words
@@ -1067,7 +1067,7 @@ MonoBehaviour:
       in an attempt to breach to the top of the economic highlife of fast cars and
       large mansions. Business is money and money makes the world go round. Signature
       skills: Political Intrigue, Bribery and Economical Sabotage."
-    resultsSprite: {fileID: 21300000, guid: 9fadc07b0ad3fe94f9c444dfe42cac01, type: 3}
+    resultsSprite: {fileID: 0}
 --- !u!4 &780496464
 Transform:
   m_ObjectHideFlags: 0
@@ -1636,7 +1636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Beyond Human
+  m_Text: Anywhere But Here
 --- !u!222 &1471823942
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1786,7 +1786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Beyond Human
+  m_Text: Anywhere But Here
 --- !u!222 &1836926012
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2006,8 +2006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _questions:
-  - name: Question
-    _questionName: 'Growing up in Haven was never easy and finding a job was more
+  - _questionName: 'Growing up in Haven was never easy and finding a job was more
       problematic than it seemed. Recently you''ve been noticing stolen goods from
       your workplace more often than not and your boss is holding you responsible
       unless the culprit is found, unfair but what can you do? The next evening you
@@ -2015,15 +2014,13 @@ MonoBehaviour:
       legs. The boy reaches in his hoodie and pulls out dainty pistol and thrusts
       it into your direction. Make a choice:'
     _answers:
-    - name: Answer
-      _answerTxt: 'Let the boy escape: He may be scared but one false move could render
+    - _answerTxt: 'Let the boy escape: He may be scared but one false move could render
         your life over. No amount of money is worth giving your life for a shitty
         job.'
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Attempt to convince him to lower his weapon and stop stealing here
+    - _answerTxt: 'Attempt to convince him to lower his weapon and stop stealing here
         if he values his life: You were never one to play the good guy but this kid
         seems to have taken the same road you did, and frankly you know where he''s
         heading if he doesn''t un-fuck his whole situation. Who knows, he might even
@@ -2031,47 +2028,41 @@ MonoBehaviour:
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Attempt to disarm the boy, knock him out and turn him in: The boy
+    - _answerTxt: 'Attempt to disarm the boy, knock him out and turn him in: The boy
         seem too scared to actually pull the trigger. You were lucky enough to even
         get a job and you''re unlikely to find another one. You need to protect your
         livelihood.'
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Let the boy take the goods, call the authorities after he leaves:
+    - _answerTxt: "Let the boy take the goods, call the authorities after he leaves:
         Keeping your job is your first and foremost priority and this is all you can
         do without the risk of catching a bullet. Risks are for chumps and you\u2019re
         planning to live a long life."
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: 'Recently you have been saving up your miscellaneous credits to
+  - _questionName: 'Recently you have been saving up your miscellaneous credits to
       afford yourself a specialised augmentation. You make your way down to your local
       Valen-Corp building and browse through the catalogue. Checking out the options
       available, you find that the choices are endless but you only have enough credits
       to afford a single upgrade. Make a choice:'
     _answers:
-    - name: Answer
-      _answerTxt: 'Aegis-9 Prosthetics: A pair of Dual Heavy shock-absorbing legs
+    - _answerTxt: 'Aegis-9 Prosthetics: A pair of Dual Heavy shock-absorbing legs
         that are commonly used by those who wish to reach new speeds and heights and
         still survive the fall in the aftermath. Used mostly by those that wish to
         be the prime example of agility and adaptability to any terrain.'
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Holo-Jack: Able to directly transfer your conscious into the subsystems
+    - _answerTxt: 'Holo-Jack: Able to directly transfer your conscious into the subsystems
         of any technology, allowing a personal stream of information to transfer into
         your head. Good for those placing high priority on information gathering or
         the control of machines.'
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'C-5 Taurus Prosthetics: Two highly advanced synthetic arms built
+    - _answerTxt: 'C-5 Taurus Prosthetics: Two highly advanced synthetic arms built
         to output ludicrous amounts of strength. Barely legal on the free market.
         Coming with a safety mode for general use during daily life, and of course
         the Taurus switch which maximises its strength and grip to inhuman levels.
@@ -2080,16 +2071,14 @@ MonoBehaviour:
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Adrenal Hormone Enhancer: A synthetic implant that enhances your
+    - _answerTxt: 'Adrenal Hormone Enhancer: A synthetic implant that enhances your
         bodies hormones, which in turn enhances your charisma and intelligence. Used
         by those who wish to enhance themselves by any means available to gain the
         upperhand in business deals.'
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: "Everything is black and you hear people whispering but you\u2019re
+  - _questionName: "Everything is black and you hear people whispering but you\u2019re
       not sure what about. You notice your hands are bound behind your back. You begin
       to analyse what is happening, listening in closely trying to decipher the muffled
       conversation. As your eyes regain focus you notice you are seated in front of
@@ -2099,175 +2088,151 @@ MonoBehaviour:
       an hour explaining that you have been held accountable for the debts of your
       roommate that has skipped town. Make a choice:"
     _answers:
-    - name: Answer
-      _answerTxt: "Offer to be under his employ as a courier to wipe out the debt:
+    - _answerTxt: "Offer to be under his employ as a courier to wipe out the debt:
         Sure you could be given a dangerous job but at least you\u2019ll get paid
         more than you could ever earn in a year. Money is always a good motivator."
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Offer to give him valuable information in exchange for clearing
+    - _answerTxt: "Offer to give him valuable information in exchange for clearing
         the debts: You\u2019re pretty sure all they care about is money, and if you
         can appeal to his sense of business perhaps he can see the profit within your
         proposition instead of bloodshed."
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Offer to bring back your roommate personally to force him into
+    - _answerTxt: "Offer to bring back your roommate personally to force him into
         taking responsibility for his debts: He left you high and dry and forced you
         to take the fall, you don\u2019t owe him a thing. You\u2019ll happily bring
         him in, dead or alive."
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: Sell your roommate out and give his last whereabouts, or perhaps
+    - _answerTxt: Sell your roommate out and give his last whereabouts, or perhaps
         lure him out for your new friends, so that you are no longer accountable.
         This man obviously has power throughout the underground of Haven. You want
         to get on his good side.
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: "On your way home to your apartment you decide to take a shortcut
+  - _questionName: "On your way home to your apartment you decide to take a shortcut
       through the neon lit slums. As you\u2019re treading through an area filled with
       broken pipelines and the putrid stench of sewage, you spot the way out through
       a dark dainty alley, only to be greeted by a group of heavily augmented hoodlums.
       Their leader is pointing a rather large firearm in your direction, demanding
       you hand over your belongings. Make a choice: "
     _answers:
-    - name: Answer
-      _answerTxt: 'Turn around and get the fuck outta there: Look these guys don''t
+    - _answerTxt: 'Turn around and get the fuck outta there: Look these guys don''t
         seem the type to just leave you alone once they''ve gotten what they want,
         and frankly you don''t wanna find out. Even an idiot knows when to split.'
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Hand over your goods and notify your buddies via neural link: There\u2019s
+    - _answerTxt: "Hand over your goods and notify your buddies via neural link: There\u2019s
         no reason these assholes should get your shit. You don't live in Haven long
         without carrying some heat on you. Only yours comes in the form of tech rather
         than firepower. "
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Threaten them and tell them to get the hell out of here before
+    - _answerTxt: "Threaten them and tell them to get the hell out of here before
         you call your friends: Last you checked this area was Sapper territory and
         you don\u2019t see any any blue skulls on their hoodies. Which means they
         are are poaching on turf that isn\u2019t theirs."
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Hand over your belongings: Look at it this way, you could fight
+    - _answerTxt: "Hand over your belongings: Look at it this way, you could fight
         back, but let\u2019s be honest, three against one, the scales aren't exactly
         in your favour and one fuckup means they'll be taking more than your wallet."
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: "Recently you\u2019ve noticed your paycheck has been becoming a
+  - _questionName: "Recently you\u2019ve noticed your paycheck has been becoming a
       lot lighter as the weeks go by and find out that your boss has been embezzling
       your pay and most likely your coworkers as well. Letting this continue without
       intervention could prove detrimental to your current life in haven. Make a choice:"
     _answers:
-    - name: Answer
-      _answerTxt: "If you\u2019re getting cheated there's no reason to stick around.
+    - _answerTxt: "If you\u2019re getting cheated there's no reason to stick around.
         Resign from your employment because sooner or later your coworkers are going
         to find out and you don't really want to be around when shit goes down."
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Blackmail your boss into cutting you in onto his deal. Business
+    - _answerTxt: "Blackmail your boss into cutting you in onto his deal. Business
         is business, good or bad it's all the same. You\u2019re willing to let it
         continue with a little more benefits to keep you on the less talkative side."
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "This prick has been siphoning you credits like it's a bloody gas
+    - _answerTxt: "This prick has been siphoning you credits like it's a bloody gas
         station, take it up with him personally and show him how you feel with a little
         \u201Cphysical encouragement\u201D."
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: Inform your coworkers about your findings. Inspire them to form
+    - _answerTxt: Inform your coworkers about your findings. Inspire them to form
         a workers union and initiate a confrontation. Whatever happens next to your
         boss is simply collateral and unimportant.
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: 'An associate sends you a message warning of an impending police
+  - _questionName: 'An associate sends you a message warning of an impending police
       raid at your place of work. He says you have a few hours to get out of there.
       Make a choice:'
     _answers:
-    - name: Answer
-      _answerTxt: "Climb out the fire escape of your office building and take off
+    - _answerTxt: "Climb out the fire escape of your office building and take off
         along the rooftops. If the cops engage you up there, return fire if needed:
         They\u2019re not stopping you."
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Use your business contacts to discover the officer in charge of
+    - _answerTxt: "Use your business contacts to discover the officer in charge of
         the raid. Threaten to blackmail him unless he calls off the raid and investigation:
         You have dirt on everyone and you\u2019re not going to let the cops stop your
         profitable information trafficking."
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Find a strategic location to defend and prepare for a fight: There
+    - _answerTxt: "Find a strategic location to defend and prepare for a fight: There
         is no way you\u2019re letting the cops take you down. Besides you have way
         more firepower than they do."
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Wait and greet the police cordially and ask to speak in private
+    - _answerTxt: "Wait and greet the police cordially and ask to speak in private
         with the officer in charge. Bribe him to look the other way and drop the investigation:
         Most cops in this town are corrupt, they don\u2019t get paid enough to put
         up a fight and will gladly take the bribe."
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: 'A business contact has some precious data they need delivered.
+  - _questionName: 'A business contact has some precious data they need delivered.
       It is essential the package arrives safe and secure without any prying eyes
       getting a look at the data. You have agreed to deliver the data, how do you
       go about this? Make a choice:'
     _answers:
-    - name: Answer
-      _answerTxt: 'You take the data disk and transfer its contents to a nanobot you
+    - _answerTxt: 'You take the data disk and transfer its contents to a nanobot you
         inject under the surface of your skin: You will deliver it in person, traveling
         by any route available to shake off pursuers. Alleyways, rooftops, sewers,
         subways etc.'
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'You encrypt the data and transfer it through a series of private
+    - _answerTxt: 'You encrypt the data and transfer it through a series of private
         servers using hidden back doors: These servers are not accessible by police
         data warrants, or most hackers for that matter.'
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "You take the data disk and speed off in your armoured car: You
+    - _answerTxt: "You take the data disk and speed off in your armoured car: You
         will travel at top speed, ploughing through roadblocks or anything else that
         gets in your way. You don\u2019t care how much mayhem you cause along the
         way, as long as the job gets done."
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "You\u2019re not putting your neck on the line for a lousy smuggling
+    - _answerTxt: "You\u2019re not putting your neck on the line for a lousy smuggling
         job, still you want the money. So you take the job and sub-contract out to
         some cheap thugs to do the dangerous parts for you: If they get caught, not
         your problem. You\u2019ve made enough profit from the up-front payment to
@@ -2275,89 +2240,76 @@ MonoBehaviour:
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: "You\u2019ve heard rumours for a few months now about a rival organisation
+  - _questionName: "You\u2019ve heard rumours for a few months now about a rival organisation
       trying to move in on your turf. Today you receive a tip off stating they are
       planning a direct assault on the HQ building where you work. Make a choice:"
     _answers:
-    - name: Answer
-      _answerTxt: "Get the hell out of town: You don\u2019t need to risk surviving
+    - _answerTxt: "Get the hell out of town: You don\u2019t need to risk surviving
         a gang war. Pack a light backpack of belongings and run like hell. You know
         these streets like the back of your hand, it\u2019s unlikely anyone could
         catch you during your escape."
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Gather more intel about your rivals before making a choice: Find
+    - _answerTxt: 'Gather more intel about your rivals before making a choice: Find
         out how much manpower and finances they have. If it looks like they have more
         resources, offer to start working for them instead. If they have less resources,
         blackmail their leader.'
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Gather your allies and prepare to meet them head on: If there\u2019s
+    - _answerTxt: "Gather your allies and prepare to meet them head on: If there\u2019s
         one thing you know how to do well, it\u2019s war. Your HQ building is practically
         a fortress and you have a bigger arsenal of weapons than any other gang in
         the city. Let them come!"
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Slink out of town quietly: You know better than to take these guys
+    - _answerTxt: 'Slink out of town quietly: You know better than to take these guys
         head on. You can transfer all your financial assets remotely anyway, so no
         real loss. You leave this shit hole town behind and move on to the next one.'
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: 'While walking home from work, you come across what looks like
+  - _questionName: 'While walking home from work, you come across what looks like
       a lone gang member in your territory. You recognize his colours as belonging
       to gang from a nearby district. He looks lost and anxious, maybe he stumbled
       into the wrong territory by accident. As you pass by he calls out to you asking
       for help with directions. Make a choice:'
     _answers:
-    - name: Answer
-      _answerTxt: 'Give him directions back to the city centre: You know all the safest
+    - _answerTxt: 'Give him directions back to the city centre: You know all the safest
         back streets where he can slink through un-noticed by other gangs or corrupt
         cops.'
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Find out what he knows and squeeze him for information: You\u2019ll
+    - _answerTxt: "Find out what he knows and squeeze him for information: You\u2019ll
         give him directions, providing he can give you some useful information."
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Pull out your gun and tell him to hand over everything he\u2019s
+    - _answerTxt: "Pull out your gun and tell him to hand over everything he\u2019s
         got: This guy doesn\u2019t get to wander into your territory and get away
         with it."
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: "Ignore him and continue walking: You can\u2019t been seen associating
+    - _answerTxt: "Ignore him and continue walking: You can\u2019t been seen associating
         with a rival gang (even if you do have secret dealings with them on the side)."
       _statEffects:
       - index: 3
         valueToAdd: 5
-  - name: Question
-    _questionName: "Business is going well. Your savings have grown nicely and it\u2019s
+  - _questionName: "Business is going well. Your savings have grown nicely and it\u2019s
       time for another shopping trip to Valen-Corp to purchase a new upgrade. Make
       a choice:"
     _answers:
-    - name: Answer
-      _answerTxt: 'Wrist mounted grappling hooks: They help you scale tall buildings
+    - _answerTxt: 'Wrist mounted grappling hooks: They help you scale tall buildings
         rapidly and swing from building to building. They also double as a handy harpoon
         if anyone tries to mess with you.'
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Neural data safe: Information is your currency, and you need to
+    - _answerTxt: 'Neural data safe: Information is your currency, and you need to
         keep it well guarded from hackers and the authorities. A high capacity solid
         state storage chip and encrypted wireless transmitters embedded in your head.
         Only you can access it via your neural authorization link. The ultimate in
@@ -2365,16 +2317,14 @@ MonoBehaviour:
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'The Kill-O-Matic 9000: The ultimate assault rifle. Well, rifle
+    - _answerTxt: 'The Kill-O-Matic 9000: The ultimate assault rifle. Well, rifle
         is perhaps understating things. This fully automatic weapon fire caseless
         20mm explosive rounds at over 200 RPM. Anti-tank cannon is probably a better
         description.'
       _statEffects:
       - index: 2
         valueToAdd: 5
-    - name: Answer
-      _answerTxt: 'Optic camouflage projector: When things get hectic, you switch
+    - _answerTxt: 'Optic camouflage projector: When things get hectic, you switch
         this sucker on and it projects a light-bending field around you that renders
         you completely invisible. Useful for sneaking in or out of tricky situations.'
       _statEffects:

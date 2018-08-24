@@ -712,20 +712,12 @@ MonoBehaviour:
 
 
 
-
-    UI design: Aston Olsen
-
+    UI design & Art: Aston Olsen
 
 
 
 
-    Music: Matt Tidmarsh
-
-
-
-
-
-    Art: Koedy Schneider'
+    Music: '
 --- !u!222 &1241495193
 CanvasRenderer:
   m_ObjectHideFlags: 0
